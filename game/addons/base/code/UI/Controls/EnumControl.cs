@@ -1,7 +1,7 @@
 ﻿namespace Sandbox.UI;
 
 /// <summary>
-/// Like TextEntry, except just for numbers
+/// A control for editing enum properties. Can either display a dropdown or a button group depending on the number of options.
 /// </summary>
 [CustomEditor( typeof( Enum ) )]
 public partial class EnumControl : BaseControl
